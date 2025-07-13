@@ -4,5 +4,5 @@ if (!firstArgument) {
     console.log("No argument");
 }
 else {
-    console.log('Say:', firstArgument);
+    console.log(firstArgument);
 }
