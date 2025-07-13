@@ -4,9 +4,6 @@ const lines = [
     "JavaScript is amazing"
 ];
 
-let outputString = "";
+const combinedOutput = lines.join('\n');
 
-for (const line of lines) {
-    outputString += line + "\n";
-}
-console.log(outputString);
+console.log(combinedOutput);
