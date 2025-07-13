@@ -1,9 +1,15 @@
-const lines = [
-    "C is fun" ,
-    "Python is cool" ,
+
+const languages = [
+    "C is fun",
+    "Python is cool",
     "JavaScript is amazing"
 ];
 
-const combinedOutput = lines.join('\n');
+let resultString = languages[0];
 
-console.log(combinedOutput);
+for (let i = 1; i < languages.length; i++) {
+    const language = languages[i]; 
+    resultString += "\n" + language; 
+}
+
+console.log(resultString);
